@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.example.noxvisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BackgroundRendererMixin",
+    "WorldRendererMixin",
+    "BipedModelMixin",
+    "InGameHudMixin",
+    "EntityMixin",
+    "CameraMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
